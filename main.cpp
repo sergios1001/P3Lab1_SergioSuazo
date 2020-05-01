@@ -52,7 +52,7 @@ int main(int argc, char** argv) {
 	cin>>n;
 	while(n>=100)
 	{
-		cout<<"Error, ingrese un numero inferior a 100";
+		cout<<"Error, ingrese un numero inferior a 100: ";
 		cin>>n;
 	}
 	for(int i=4;i<=n;i+=2)
